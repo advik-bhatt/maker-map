@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
-import type { CountryScore } from "@/app/api/creativity-map/route";
+import type { CountryScore } from "@/lib/types";
 
 const GEO_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json";
 
